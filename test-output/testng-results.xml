@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59946" started-at="2020-03-28T10:03:39Z" finished-at="2020-03-28T10:04:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59946" started-at="2020-03-28T10:03:39Z" finished-at="2020-03-28T10:04:39Z">
+      <class name="testScripts.Module1">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:testScripts.Module1@3ecd23d9]" name="beforesuite" is-config="true" duration-ms="372" started-at="2020-03-28T10:03:38Z" finished-at="2020-03-28T10:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.Module1@3ecd23d9]" name="beforemethod" is-config="true" duration-ms="1248" started-at="2020-03-28T10:03:39Z" finished-at="2020-03-28T10:03:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@234a8f27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testScripts.Module1@3ecd23d9]" name="before" is-config="true" duration-ms="22375" started-at="2020-03-28T10:03:40Z" finished-at="2020-03-28T10:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TC101()[pri:0, instance:testScripts.Module1@3ecd23d9]" name="TC101" duration-ms="5905" started-at="2020-03-28T10:04:03Z" finished-at="2020-03-28T10:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testScripts.Module1@3ecd23d9]" name="after" is-config="true" duration-ms="3784" started-at="2020-03-28T10:04:08Z" finished-at="2020-03-28T10:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.Module1@3ecd23d9]" name="aftermethod" is-config="true" duration-ms="520" started-at="2020-03-28T10:04:12Z" finished-at="2020-03-28T10:04:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC101 status=SUCCESS method=Module1.TC101()[pri:0, instance:testScripts.Module1@3ecd23d9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@234a8f27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.Module1@3ecd23d9]" name="beforemethod" is-config="true" duration-ms="81" started-at="2020-03-28T10:04:13Z" finished-at="2020-03-28T10:04:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@234a8f27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testScripts.Module1@3ecd23d9]" name="before" is-config="true" duration-ms="16296" started-at="2020-03-28T10:04:13Z" finished-at="2020-03-28T10:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TC102()[pri:0, instance:testScripts.Module1@3ecd23d9]" name="TC102" duration-ms="5625" started-at="2020-03-28T10:04:29Z" finished-at="2020-03-28T10:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC102 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testScripts.Module1@3ecd23d9]" name="after" is-config="true" duration-ms="3780" started-at="2020-03-28T10:04:35Z" finished-at="2020-03-28T10:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.Module1@3ecd23d9]" name="aftermethod" is-config="true" duration-ms="255" started-at="2020-03-28T10:04:39Z" finished-at="2020-03-28T10:04:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC102 status=SUCCESS method=Module1.TC102()[pri:0, instance:testScripts.Module1@3ecd23d9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@234a8f27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:testScripts.Module1@3ecd23d9]" name="aftersuite" is-config="true" duration-ms="6413" started-at="2020-03-28T10:04:39Z" finished-at="2020-03-28T10:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testScripts.Module1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
