@@ -52,14 +52,14 @@ public class Module1 extends BaseClass {
 		contactdetailspage = new Pg103_ContactDetails(driver);
 		contactdetailspage.clickOnEdit();
 		contactdetailspage.setAddressStreet1(getdata("Address1"));
-		contactdetailspage.setAddressStreet2("Madhapur");
+		contactdetailspage.setAddressStreet2("KPHB");
 		contactdetailspage.setCity("Hyderabad");
-		contactdetailspage.setZipCode("500081");
+		contactdetailspage.setZipCode("500072");
 		contactdetailspage.setCounty("India");
-		contactdetailspage.setHomeTelephone("9632598745");
-		contactdetailspage.setWorkTelephone("9635125896");
-		contactdetailspage.setWorkEmail("abcd@gmail.com");
-		contactdetailspage.setOtherEmail("pqrs@gmail.com");
+		contactdetailspage.setHomeTelephone("9949284540");
+		contactdetailspage.setWorkTelephone("9640924436");
+		contactdetailspage.setWorkEmail("sunil@gmail.com");
+		contactdetailspage.setOtherEmail("kumar@gmail.com");
 		setdata("Status", "Passed");
 		contactdetailspage.clickOnSave();
 	}
