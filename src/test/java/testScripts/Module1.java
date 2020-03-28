@@ -47,22 +47,7 @@ public class Module1 extends BaseClass {
 		contactdetailspage.setOtherEmail("pqrs@gmail.com");
 		contactdetailspage.clickOnSave();
 	}
-	@Test(invocationCount=1)
-	public void TC102() {
-		contactdetailspage = new Pg103_ContactDetails(driver);
-		contactdetailspage.clickOnEdit();
-		contactdetailspage.setAddressStreet1(getdata("Address1"));
-		contactdetailspage.setAddressStreet2("KPHB");
-		contactdetailspage.setCity("Hyderabad");
-		contactdetailspage.setZipCode("500072");
-		contactdetailspage.setCounty("India");
-		contactdetailspage.setHomeTelephone("9949284540");
-		contactdetailspage.setWorkTelephone("9640924436");
-		contactdetailspage.setWorkEmail("sunil@gmail.com");
-		contactdetailspage.setOtherEmail("kumar@gmail.com");
-		setdata("Status", "Passed");
-		contactdetailspage.clickOnSave();
-	}
+
 	@AfterMethod
 	public void after() {
 		homepage.Logout();
